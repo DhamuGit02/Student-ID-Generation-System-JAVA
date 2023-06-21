@@ -3,7 +3,7 @@ public class DataBaseConnection {
     static Connection con = null;
     static final String url = "jdbc:mysql://localhost:3306/DBMS";
     static final String uname = "root";
-    static final String password = "Dhamu@2002";
+    static final String password = "YOUR_PASSWORD";
 
     public static Connection getConnection() {
         if (con != null) {
